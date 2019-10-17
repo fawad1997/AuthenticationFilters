@@ -12,14 +12,14 @@
 </head>
 <body>
 <%
-    String email = null;
+    /*String email = null;
     HttpSession session1 = request.getSession(false);
     if (session1!=null){
         if(session1.getAttribute("email")!=null){
             email = (String)session1.getAttribute("email");
         }else
             response.sendRedirect("index.jsp");
-    }
+    }*/
     /*String loginCooke = null;
     Cookie[] cookies = request.getCookies();
     if(cookies!=null){
@@ -34,7 +34,7 @@
         response.sendRedirect("index.jsp");
     }*/
 %>
-<h1>Hi <%=email %>, Welcome</h1>
+<h1>Hi <%//email %>, Welcome</h1>
 <form action="logout" method="post">
     <button type="submit" value="Logout">Logout</button>
 </form>
