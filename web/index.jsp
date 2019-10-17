@@ -12,7 +12,7 @@
     <title>Test</title>
   </head>
   <body>
-  <form>
+  <form action="login" method="post">
     <div class="form-group">
       <label>Email address</label>
       <input type="email" class="form-control" name="email" placeholder="Enter email">
